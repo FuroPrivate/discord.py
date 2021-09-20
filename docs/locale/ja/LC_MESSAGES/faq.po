@@ -150,8 +150,8 @@ msgid ""
 "Example code can be found in the `examples folder <https://github.com/Rapptz/"
 "discord.py/tree/master/examples>`_ in the repository."
 msgstr ""
-"使い方の例は `例 <https://github.com/Rapptz/discord.py/tree/master/"
-"examples>`_ のレポジトリに記載しています。"
+"使い方の例は `この <https://github.com/Rapptz/discord.py/tree/master/"
+"examples>`_ レポジトリに記載しています。"
 
 #: ../../faq.rst:86
 msgid "How do I set the \"Playing\" status?"
@@ -211,16 +211,16 @@ msgid ""
 "Get the :class:`User` or :class:`Member` object and call :meth:`abc."
 "Messageable.send`. For example: ::"
 msgstr ""
-":class:`USer`あるいは:class:`Member`オブジェクトを取得して:meth:`abc."
-"Messageable.send`を呼び出します。例: :: "
+":class:`USer` あるいは :class:`Member` オブジェクトを取得して :meth:`abc.Messageable.send`"
+"を呼び出します。例: :: "
 
 #: ../../faq.rst:121
 msgid ""
 "If you are responding to an event, such as :func:`on_message`, you already "
 "have the :class:`User` object via :attr:`Message.author`: ::"
 msgstr ""
-":func:`on_message`のようなイベントの場合、:class:`User`オブジェクトは:attr:"
-"`Message.author`を介して取得できます。"
+":func:`on_message` のようなイベントの場合、 :class:`User` オブジェクトは :attr:`Message.author`"
+"を介して取得できます。"
 
 #: ../../faq.rst:126
 #, fuzzy
@@ -232,8 +232,8 @@ msgid ""
 ":meth:`abc.Messageable.send` returns the :class:`Message` that was sent. The "
 "ID of a message can be accessed via :attr:`Message.id`: ::"
 msgstr ""
-":meth:`abc.Messageable.send`メソッドは送信された`Messsage`オブジェクトを返し"
-"ます。メッセージIDは:attr:`Message.id`を介して取得できます。"
+":meth:`abc.Messageable.send` メソッドは送信された `Messsage` オブジェクトを返し"
+"ます。メッセージIDは :attr:`Message.id` を介して取得できます。"
 
 #: ../../faq.rst:135
 msgid "How do I upload an image?"
@@ -575,8 +575,8 @@ msgid ""
 "also allows you to do multiple things asynchronously in response to a "
 "message. Example::"
 msgstr ""
-"また、``on_message``と同じものを**listener**に配置することも出来ます。この場"
-"合、手動で``bot.process_commands()``を呼び出す必要はありません。これによっ"
+"また、 ``on_message`` と同じものを **listener** に配置することも出来ます。この場"
+"合、手動で ``bot.process_commands()`` を呼び出す必要はありません。これによっ"
 "て、メッセージに応じて複数の非同期処理を行うことが出来ます。"
 
 #: ../../faq.rst:357
